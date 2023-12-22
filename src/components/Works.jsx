@@ -14,6 +14,7 @@ const ProjectCard = ({
   description,
   tags,
   image,
+  live_site_link,
   source_code_link,
 }) => {
   return (
@@ -52,6 +53,8 @@ const ProjectCard = ({
           <p className='mt-2 text-secondary text-[14px]'>{description}</p>
         </div>
 
+
+
         <div className='mt-4 flex flex-wrap gap-2'>
           {tags.map((tag) => (
             <p
@@ -62,6 +65,7 @@ const ProjectCard = ({
             </p>
           ))}
         </div>
+        <a href={live_site_link}>Visit live site</a>
       </Tilt>
     </motion.div>
   );
@@ -75,7 +79,7 @@ const Works = () => {
         <h2 className={`${styles.sectionHeadText}`}>Projects.</h2>
       </motion.div>
 
-      <div className='w-full flex'>
+      <div className='w-full flex '>
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
           className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
@@ -88,7 +92,7 @@ const Works = () => {
         </motion.p>
       </div>
 
-      <div className='mt-20 flex flex-wrap gap-7'>
+      <div className='mt-20 flex flex-wrap justify-center gap-7'>
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}

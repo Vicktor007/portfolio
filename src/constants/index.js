@@ -186,10 +186,55 @@ const testimonials = [
 ];
 
 const projects = [
+  
   {
-    name: "Car Rent",
+    name: "Filterable Image gallery",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A filterable image gallery that can be incoporated in a website that suits the purpose it is intented; getting images by search inputs.",
+    tags: [
+      {
+        name: "Html",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "yellow",
+      },
+    ],
+    image: carrent,
+    source_code_link: "https://github.com/",
+    live_site_link: "https://github.com/",
+  },
+  {
+    name: "Filterable address book",
+    description:
+      "This is a project I used to learn crud operations before I learned nodejs. It allows users to create and save people's information. They can also edit or delete it based on what they want to do.",
+    tags: [
+      {
+        name: "Html",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "yellow-text-gradient",
+      },
+    ],
+    image: carrent,
+    source_code_link: "https://github.com/",
+    live_site_link: "https://github.com/",
+  },
+  {
+    name: "E-commerce Website",
+    description:
+      "E-commerce website that allows users to register and sign in to save thier desired products for later or place an order for it to be delivered. It also gives the Seller the admin priviledge to manage both the users registered and the products on sale. It has an admin dashboard to track the orders and sales made daily.",
     tags: [
       {
         name: "react",
@@ -200,24 +245,33 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
-        color: "pink-text-gradient",
+        name: "nodejs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "blue-text-gradient",
       },
     ],
-    image: carrent,
+    image: jobit,
     source_code_link: "https://github.com/",
+    live_site_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "Product Management Website",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A website that allows users to manage their inventory and also keep track of the expiry dates of the products in store.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "nodejs",
         color: "green-text-gradient",
       },
       {
@@ -225,29 +279,9 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
     image: tripguide,
     source_code_link: "https://github.com/",
+    live_site_link: "https://github.com/",
   },
 ];
 
