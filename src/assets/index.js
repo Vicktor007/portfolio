@@ -28,6 +28,10 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import eshop from "./eshop.jpeg";
+import estock from "./estock.jpeg";
+import fab from "./fab.jpeg";
+import fim from "./fim.jpeg";
 
 export {
   backend,
@@ -57,4 +61,8 @@ export {
   carrent,
   jobit,
   tripguide,
+  eshop,
+  estock,
+  fab,
+  fim
 };

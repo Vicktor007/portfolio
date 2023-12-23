@@ -65,7 +65,7 @@ const ProjectCard = ({
             </p>
           ))}
         </div>
-        <a href={live_site_link}>Visit live site</a>
+        <a href={live_site_link} className="mt-3 blue-text-gradient">Visit live site</a>
       </Tilt>
     </motion.div>
   );
@@ -75,8 +75,8 @@ const Works = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={`${styles.sectionSubText} `}>My work</p>
-        <h2 className={`${styles.sectionHeadText}`}>Projects.</h2>
+        {/* <p className={`${styles.sectionSubText} `}>My work</p> */}
+        <h2 className={`${styles.sectionHeadText}`}>My Personal Projects.</h2>
       </motion.div>
 
       <div className='w-full flex '>
