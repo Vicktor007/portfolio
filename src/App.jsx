@@ -12,7 +12,7 @@ const App = () => {
         </div>
         <About />
         <Tech />
-        <Experience />
+        {/* <Experience /> */}
         <Works />
         {/* <Feedbacks /> */}
         <div className='relative z-0'>

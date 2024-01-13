@@ -46,16 +46,16 @@ export const navLinks = [
 
 const services = [
   {
-    title: " Frontend Web Developer",
+    title: " Frontend Web Developer: Reactjs",
     icon: web,
   },
   
   {
-    title: "Backend Developer",
+    title: "Backend Developer: Nodejs, Mongodb",
     icon: backend,
   },
   {
-    title: "Fullstack Developer",
+    title: "Fullstack Developer: Reactjs, Nodejs, Mongodb",
     icon: mobile,
   },
   
@@ -190,52 +190,6 @@ const testimonials = [
 ];
 
 const projects = [
-  
-  {
-    name: "Filterable Image gallery",
-    description:
-      "A filterable image gallery that can be incoporated in a website that suits the purpose it is intented; getting images by prefered search labels.",
-    tags: [
-      {
-        name: "Html",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "javascript",
-        color: "yellow",
-      },
-    ],
-    image: fim,
-    source_code_link: "https://github.com/",
-    live_site_link: "https://github.com/",
-  },
-  {
-    name: "Filterable address book",
-    description:
-      "This is a project I used to learn crud operations before I learned nodejs. It allows users to create and save people's information. They can also edit or delete it based on what they want to do.",
-    tags: [
-      {
-        name: "Html",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "javascript",
-        color: "yellow",
-      },
-      
-    ],
-    image: fab,
-    source_code_link: "https://github.com/",
-    live_site_link: "https://github.com/",
-  },
   {
     name: "E-Shop",
     description:
@@ -263,13 +217,13 @@ const projects = [
       },
     ],
     image: eshop,
-    source_code_link: "https://github.com/",
-    live_site_link: "https://github.com/",
+    source_code_link: "https://github.com/Vicktor007/MERN-E-Commerce-Store-main",
+    live_site_link: "https://e-shop-frontend-beta.vercel.app/",
   },
   {
     name: "E-stock",
     description:
-      "A website that allows users to manage their inventory and also keep track of the expiry dates of the products in store.",
+      "A website that allows users to manage their inventory and also keep track of the expiry dates of the products in store. It has qrcode qeneration integrated into it to create a qrcode that can be sticked to the product. The user can scan the qrcode and get the informaton about the particular product.",
     tags: [
       {
         name: "react",
@@ -293,9 +247,56 @@ const projects = [
       },
     ],
     image: estock,
-    source_code_link: "https://github.com/",
-    live_site_link: "https://github.com/",
+    source_code_link: "https://github.com/Vicktor007/Product-Management-and-Expiry-Tracking-Website",
+    live_site_link: "https://e-stock-frontend-vite.vercel.app/",
   },
+  
+  {
+    name: "Filterable Image gallery",
+    description:
+      "A filterable image gallery that can be incoporated in a website that suits the purpose it is intented; getting images by prefered search labels.",
+    tags: [
+      {
+        name: "Html",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "yellow",
+      },
+    ],
+    image: fim,
+    source_code_link: "https://github.com/Vicktor007/filterable-image-gallery-html-bootstrap",
+    live_site_link: "https://filterable-image-gallery-html-bootstrap.vercel.app/",
+  },
+  {
+    name: "Filterable address book",
+    description:
+      "This is a project I used to learn crud operations before I learned nodejs. It allows users to create and save people's information. They can also edit or delete it based on what they want to do.",
+    tags: [
+      {
+        name: "Html",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "yellow",
+      },
+      
+    ],
+    image: fab,
+    source_code_link: "https://github.com/Vicktor007/Filterable-Address-Book",
+    live_site_link: "https://vicktor007.github.io/Filterable-Address-Book/",
+  },
+  
 ];
 
 export { services, technologies, experiences, testimonials, projects };

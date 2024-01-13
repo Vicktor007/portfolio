@@ -32,6 +32,7 @@ import eshop from "./eshop.jpeg";
 import estock from "./estock.jpeg";
 import fab from "./fab.jpeg";
 import fim from "./fim.jpeg";
+import victor from "./hero-avatar.jpg"
 
 export {
   backend,
@@ -64,5 +65,6 @@ export {
   eshop,
   estock,
   fab,
-  fim
+  fim,
+  victor
 };
