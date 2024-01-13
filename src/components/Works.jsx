@@ -65,7 +65,7 @@ const ProjectCard = ({
             </p>
           ))}
         </div>
-        <a href={live_site_link} className="mt-3 blue-text-gradient">Visit live site</a>
+        <a href={live_site_link} target="_blank" className="mt-3 blue-text-gradient">Visit live site</a>
       </Tilt>
     </motion.div>
   );
