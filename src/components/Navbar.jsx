@@ -50,7 +50,7 @@ const Navbar = () => {
           </p>
         </Link>
 
-        <ul className='list-none hidden sm:flex flex-row gap-10'>
+        <ul className='list-none hidden lg:flex flex-row gap-10'>
           {navLinks.map((nav) => (
             <li
               key={nav.id}
@@ -72,7 +72,7 @@ const Navbar = () => {
                 </a>
         </ul>
 
-        <div className='sm:hidden flex flex-1 justify-end items-center'>
+        <div className='lg:hidden flex flex-1 justify-end items-center'>
           <img
             src={toggle ? close : menu}
             alt='menu'
@@ -100,6 +100,13 @@ const Navbar = () => {
                   <a href={`#${nav.id}`}>{nav.title}</a>
                 </li>
               ))}
+              <a
+                 className=" bg-[#915EFF] hover:bg-[#6435c9] text-white px-4 py-2 border-none rounded-md ml-"
+                  href={pdf}
+                  download
+                  >
+                 My Resume
+                </a>
             </ul>
           </div>
         </div>

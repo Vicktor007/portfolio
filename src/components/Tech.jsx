@@ -14,7 +14,7 @@ const Tech = () => {
     <motion.div variants={textVariant()}>
         
         <h2 className={`${styles.sectionHeadText} text-center`}>
-          The technologies I use.
+          The development tools I use.
         </h2>
       </motion.div>
     <div className='flex flex-row flex-wrap justify-center gap-10 mt-20'>

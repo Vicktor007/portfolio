@@ -19,13 +19,9 @@ const ProjectCard = ({
 }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
-      <Tilt
-        options={{
-          max: 45,
-          scale: 1,
-          speed: 450,
-        }}
-        className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full'
+      <div
+        
+        className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full ease-in  hover:translate-y-1'
       >
         <div className='relative w-full h-[230px]'>
           <img
@@ -42,7 +38,7 @@ const ProjectCard = ({
               <img
                 src={github}
                 alt='source code'
-                className='w-1/2 h-1/2 object-contain'
+                className='w-[100%] h-[90%] object-contain'
               />
             </div>
           </div>
@@ -66,7 +62,7 @@ const ProjectCard = ({
           ))}
         </div>
         <a href={live_site_link} target="_blank" className="mt-3 blue-text-gradient">Visit live site</a>
-      </Tilt>
+      </div>
     </motion.div>
   );
 };
