@@ -55,12 +55,20 @@ const Navbar = () => {
               key={nav.id}
               className={`${
                 active === nav.title ? "text-white" : "text-secondary"
-              } hover:text-white text-[18px] font-medium cursor-pointer`}
+              } hover:text-white text-[18px] py-2 font-medium cursor-pointer`}
               onClick={() => setActive(nav.title)}
             >
               <a href={`#${nav.id}`}>{nav.title}</a>
+              
             </li>
           ))}
+          <a
+                 className=" bg-[#915EFF] hover:bg-[#6435c9] text-white px-4 py-2 border-none rounded-md ml-"
+                  href="/Victor-Olayiwola-Resume.pdf"
+                  download
+                  >
+                 My Resume
+                </a>
         </ul>
 
         <div className='sm:hidden flex flex-1 justify-end items-center'>
